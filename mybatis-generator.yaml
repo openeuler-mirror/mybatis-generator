@@ -1,0 +1,4 @@
+version_control: github
+src_repo: mybatis/generator
+tag_prefix: "mybatis-generator-"
+separator: "."
