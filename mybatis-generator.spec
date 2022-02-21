@@ -1,6 +1,6 @@
 Name:          mybatis-generator
 Version:       1.3.2
-Release:       1
+Release:       2
 Summary:       A code generator for MyBatis and iBATIS
 License:       ASL 2.0
 URL:           http://www.mybatis.org/
@@ -103,5 +103,8 @@ sed -i 's/\r//' LICENSE NOTICE %{name}-core/doc/*
 %license LICENSE NOTICE
 
 %changelog
+* Mon Feb 21 2022 wangkai <wangkai385@huawei.com> - 1.3.2-2
+- Rebuild for fix log4j1.x cves
+
 * Mon May 10 2021 chengzihan <chengzihan2@huawei.com> - 1.3.2-1
 - Package init
